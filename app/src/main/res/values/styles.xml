@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base Light theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#FFFFFF</item>
+        <item name="cardbackground">#FFFFFF</item>
+        <item name="textcolor">#636363</item>
+        <item name="tintcolor">#BAB8B8</item>
+        <item name="buttoncolor">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!--DARK THEME BASE-->
+    <style name="AppDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#191919</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#191919</item>
+        <item name="cardbackground">#6A6868</item>
+        <item name="textcolor">#FAFAFA</item>
+        <item name="tintcolor">#707070</item>
+        <item name="buttoncolor">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+
+
+    <style name="SettingsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#FFFFFF</item>
+        <item name="cardbackground">#FFFFFF</item>
+        <item name="textcolor">#454545</item>
+        <item name="tintcolor">#BAB8B8</item>
+        <item name="buttoncolor">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!--DARK THEME BASE-->
+    <style name="SettingsDarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#191919</item>
+        <item name="cardbackground">#6A6868</item>
+        <item name="textcolor">#FAFAFA</item>
+        <item name="tintcolor">#6A6868</item>
+        <item name="buttoncolor">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/bounce_interpolator</item>
+    </style>
+
+
+</resources>
