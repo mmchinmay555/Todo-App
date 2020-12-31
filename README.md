@@ -1,5 +1,5 @@
 <h1>Todo-App</h1>
-<p>Todo-List App, with Remainder and DarkMode <p/>
+<p>Todo-List App, with Reminder and DarkMode <p/>
 <img src="https://github.com/mmchinmay555/Todo-App/blob/master/app/src/main/Frame%201to-Do.png"/>
 <h1>About</h1>
 <ul>
